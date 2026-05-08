@@ -12,8 +12,7 @@ def desenhaTriangulo(base, altura, x, y, cor):
 
 
 def display():
-    gl.glClear(gl.GL_COLOR_BUFFER_BIT)
-    gl.glLoadIdentity()
+    gl.glClear(gl.GL_COLOR_BUFFER_BIT)
 
     desenhaTriangulo(b, a, 0.0, 0.0, (0.0, 1.0, 1.0))
 
